@@ -1,12 +1,10 @@
-import Contenido from './components/Contenido';
-import ContenidoDefault from './components/ContenidoDefault';
-import { Provider } from './context/Context';
+import Toggle from './components/Toggle';
+import { Provider } from './context/ContextToggle';
 
 function App() {
   return (
     <Provider>
-      <Contenido />
-      <ContenidoDefault />
+      <Toggle />
     </Provider>
   );
 }
