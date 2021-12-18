@@ -1,10 +1,10 @@
-import Toggle from './components/Toggle';
-import { Provider } from './context/ContextToggle';
+import CompoClass from './components/CompoClass';
+import { Provider } from './context/Context';
 
 function App() {
   return (
     <Provider>
-      <Toggle />
+      <CompoClass />
     </Provider>
   );
 }
